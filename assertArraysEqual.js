@@ -14,7 +14,7 @@ const eqArrays = function(arr1, arr2) {
   return true;
 };
 
-// an asserEqual function that works for arrays
+// an assertEqual function that works for arrays
 const assertArraysEqual = function(actual, expected) {
   if (eqArrays(actual, expected)) {
     console.log(`✅✅✅ Assertation Passed: ${actual} === ${expected}`);
