@@ -5,7 +5,7 @@ const assertEqual = function(actual, expected) {
   } else {
     console.log(`🛑🛑🛑 Assertation Failed: ${actual} !== ${expected}`);
   }
-};
+};given
 
 // allItems: an array of strings that we need to look through
 // itemsToCount: an object specifying what to count
