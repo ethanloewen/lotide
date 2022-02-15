@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@ethanloewen/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A library of simple functions based on the Lodash library.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/ethanloewen/lotide.git"
   },
-  "author": "",
+  "author": "Ethan Loewen",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ethanloewen/lotide/issues"
