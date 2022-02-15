@@ -11,6 +11,9 @@ const eqArrays = require('./eqArrays');
 const findKey = require('./findKey');
 const findKeyByValue = require('./findKeyByValue');
 const flatten = require('./flatten');
+const letterPositions = require('./letterPositions');
+const map = require('./map');
+const takeUntil = require('./takeUntil');
 
 module.exports = {
   head: head,
