@@ -1,19 +1,4 @@
-//Function that checks if 2 arrays are equal
-const eqArrays = function(arr1, arr2) {
-
-  if (arr1.length !== arr2.length) {
-    return false;
-  }
-
-  for (let i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i]) {
-      return false;
-    }
-  }
-
-  return true;
-};
-
+const eqArrays = require('./eqArrays');
 
 // Checks if two objects are equal
 const eqObjects = function(object1, object2) {
