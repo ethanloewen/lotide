@@ -6,6 +6,7 @@ const assertEqual = require('./assertEqual');
 const eqObjects = require('./eqObjects');
 const assertObjectsEqual = require('./assertObjectsEqual');
 const countLetters = require('./countLetters');
+const countOnly = require('./countOnly');
 
 module.exports = {
   head: head,
